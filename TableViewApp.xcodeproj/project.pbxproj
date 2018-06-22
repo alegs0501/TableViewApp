@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090C24E720DB8F33006B84B9 /* Screen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090C24E620DB8F33006B84B9 /* Screen2ViewController.swift */; };
+		090C24E920DB9227006B84B9 /* TeamCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090C24E820DB9227006B84B9 /* TeamCellTableViewCell.swift */; };
+		090C24ED20DBA212006B84B9 /* Screen1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090C24EC20DBA212006B84B9 /* Screen1TableViewController.swift */; };
+		090C24EF20DBA442006B84B9 /* TeamScreen1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090C24EE20DBA442006B84B9 /* TeamScreen1TableViewCell.swift */; };
+		090C24F420DBA923006B84B9 /* Screen3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090C24F320DBA923006B84B9 /* Screen3ViewController.swift */; };
 		09B93B9820DA3853009D48DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B93B9720DA3853009D48DC /* AppDelegate.swift */; };
 		09B93B9A20DA3853009D48DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B93B9920DA3853009D48DC /* ViewController.swift */; };
 		09B93B9D20DA3853009D48DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B93B9B20DA3853009D48DC /* Main.storyboard */; };
 		09B93B9F20DA3853009D48DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B93B9E20DA3853009D48DC /* Assets.xcassets */; };
 		09B93BA220DA3853009D48DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B93BA020DA3853009D48DC /* LaunchScreen.storyboard */; };
+		09C8B17220DA52C100C30567 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C8B17120DA52C100C30567 /* Teams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090C24E620DB8F33006B84B9 /* Screen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2ViewController.swift; sourceTree = "<group>"; };
+		090C24E820DB9227006B84B9 /* TeamCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCellTableViewCell.swift; sourceTree = "<group>"; };
+		090C24EC20DBA212006B84B9 /* Screen1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1TableViewController.swift; sourceTree = "<group>"; };
+		090C24EE20DBA442006B84B9 /* TeamScreen1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamScreen1TableViewCell.swift; sourceTree = "<group>"; };
+		090C24F320DBA923006B84B9 /* Screen3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen3ViewController.swift; sourceTree = "<group>"; };
 		09B93B9420DA3853009D48DC /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B93B9720DA3853009D48DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09B93B9920DA3853009D48DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,7 @@
 		09B93B9E20DA3853009D48DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09B93BA120DA3853009D48DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09B93BA320DA3853009D48DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C8B17120DA52C100C30567 /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,9 +47,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090C24F020DBA8D2006B84B9 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				090C24E620DB8F33006B84B9 /* Screen2ViewController.swift */,
+				090C24EC20DBA212006B84B9 /* Screen1TableViewController.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		090C24F120DBA8E6006B84B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09C8B17120DA52C100C30567 /* Teams.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		090C24F220DBA8F4006B84B9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				090C24E820DB9227006B84B9 /* TeamCellTableViewCell.swift */,
+				090C24EE20DBA442006B84B9 /* TeamScreen1TableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		09B93B8B20DA3853009D48DC = {
 			isa = PBXGroup;
 			children = (
+				090C24F320DBA923006B84B9 /* Screen3ViewController.swift */,
+				090C24F220DBA8F4006B84B9 /* Cells */,
+				090C24F120DBA8E6006B84B9 /* Model */,
+				090C24F020DBA8D2006B84B9 /* Tables */,
 				09B93B9620DA3853009D48DC /* TableViewApp */,
 				09B93B9520DA3853009D48DC /* Products */,
 			);
@@ -96,6 +138,7 @@
 				TargetAttributes = {
 					09B93B9320DA3853009D48DC = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090C24F420DBA923006B84B9 /* Screen3ViewController.swift in Sources */,
+				090C24ED20DBA212006B84B9 /* Screen1TableViewController.swift in Sources */,
+				090C24EF20DBA442006B84B9 /* TeamScreen1TableViewCell.swift in Sources */,
 				09B93B9A20DA3853009D48DC /* ViewController.swift in Sources */,
+				09C8B17220DA52C100C30567 /* Teams.swift in Sources */,
 				09B93B9820DA3853009D48DC /* AppDelegate.swift in Sources */,
+				090C24E920DB9227006B84B9 /* TeamCellTableViewCell.swift in Sources */,
+				090C24E720DB8F33006B84B9 /* Screen2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +323,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alegs0501.TableViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
